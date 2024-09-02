@@ -1,8 +1,8 @@
-// global.d.ts
+// // global.d.ts
 
-interface Window {
-    Hands: any;
-    HAND_CONNECTIONS: any;
-    Camera: any;
-  }
+// interface Window {
+//     Hands: any;
+//     HAND_CONNECTIONS: any;
+//     Camera: any;
+//   }
   

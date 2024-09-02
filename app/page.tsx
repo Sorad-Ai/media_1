@@ -5,7 +5,7 @@
 import React, { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 
-const CameraToggle = dynamic(() => import('../components/CameraToggle'), { ssr: false });
+const CameraToggle = dynamic(() => import('../components/CameraControl'), { ssr: false });
 
 export default function Home() {
   const [mediapipeLoaded, setMediapipeLoaded] = useState(false);
